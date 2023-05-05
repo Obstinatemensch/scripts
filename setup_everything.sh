@@ -42,6 +42,8 @@ sudo apt-get -y install apt-fast
 
 sudo apt-get install python3-pip
 
+sudo snap install cmake
+
 timedatectl set-local-rtc 1 --adjust-system-clock
 
 /install vscode, spotify, discord
