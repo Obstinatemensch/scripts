@@ -1,6 +1,9 @@
 #!/bin/bash
+
 sudo apt update -y
 sudo apt upgrade -y
+
+timedatectl set-local-rtc 1 --adjust-system-clock
 
 wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
 sudo dpkg -i google-chrome-stable_current_amd64.deb
@@ -12,12 +15,11 @@ sudo apt-get install grub-customizer -y
 
 sudo apt install gnome-shell-extension-manager -y
 sudo apt-get install -y gpaste
-/enablegnomeshell extension from gpaste gui
+#enablegnomeshell extension from gpaste gui after these steps
 
 sudo apt install git -y
 
 sudo apt-get install flex bison -y
-
 
 sudo add-apt-repository ppa:linrunner/tlp
 sudo apt-get update
@@ -42,8 +44,6 @@ sudo apt-get -y install apt-fast
 
 sudo apt-get install python3-pip
 
-sudo snap install cmake
-
-timedatectl set-local-rtc 1 --adjust-system-clock
+sudo snap install cmake --classic
 
 /install vscode, spotify, discord
