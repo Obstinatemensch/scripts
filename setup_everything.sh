@@ -46,4 +46,8 @@ sudo apt-get install python3-pip
 
 sudo snap install cmake --classic
 
+sudo add-apt-repository universe
+sudo apt update -y
+sudo apt install gnome-tweaks -y
+
 /install vscode, spotify, discord
