@@ -38,10 +38,6 @@ sudo apt-get install emacs -y
 
 sudo apt install build-essential -y
 
-echo -ne '\n' | sudo add-apt-repository ppa:apt-fast/stable
-sudo apt-get update
-sudo apt-get -y install apt-fast
-
 sudo apt-get install python3-pip -y
 
 sudo snap install cmake --classic
