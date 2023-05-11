@@ -14,7 +14,7 @@ sudo apt upgrade -yecho -ne '\n' |
 sudo apt-get install grub-customizer -y
 
 sudo apt install gnome-shell-extension-manager -y
-sudo apt-get install -y gpaste
+#get gnome clipboard from the extensions
 #enablegnomeshell extension from gpaste gui after these steps
 
 sudo apt install git -y
