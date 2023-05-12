@@ -15,7 +15,7 @@ sudo apt-get install grub-customizer -y
 
 sudo apt install gnome-shell-extension-manager -y
 #get gnome clipboard from the extensions
-#enablegnomeshell extension from gpaste gui after these steps
+#enablegnomeshell extensions from extensions
 
 sudo apt install git -y
 
@@ -27,7 +27,7 @@ sudo apt-get install tlp tlp-rdw
 systemctl enable tlp.service	
 sudo tlp start
 
-sudo snap install microsoft-todo-unofficial vlc
+sudo snap install microsoft-todo-unofficial vlc discord spotify
 
 sudo apt install software-properties-common apt-transport-https wget -y
 wget -q https://packages.microsoft.com/keys/microsoft.asc -O- | sudo apt-key add -
@@ -46,4 +46,4 @@ echo -ne '\n' | sudo add-apt-repository universe
 sudo apt update -y
 sudo apt install gnome-tweaks -y
 
-/install vscode, spotify, discord
+#install vscode
