@@ -10,7 +10,7 @@ sudo dpkg -i google-chrome-stable_current_amd64.deb
 
 echo -ne '\n' | sudo add-apt-repository ppa:danielrichter2007/grub-customizer  
 sudo apt-get update
-sudo apt upgrade -yecho -ne '\n' | 
+sudo apt upgrade -y
 sudo apt-get install grub-customizer -y
 
 sudo apt install gnome-shell-extension-manager -y
@@ -35,6 +35,7 @@ echo -ne '\n' | sudo add-apt-repository "deb [arch=amd64] https://packages.micro
 sudo apt install microsoft-edge-stable
 
 sudo apt-get install emacs -y
+sudo apt install neovim
 
 sudo apt install build-essential -y
 
@@ -45,5 +46,7 @@ sudo snap install cmake --classic
 echo -ne '\n' | sudo add-apt-repository universe
 sudo apt update -y
 sudo apt install gnome-tweaks -y
+
+sudo apt autoremove
 
 #install vscode
